@@ -1,5 +1,7 @@
-import React  from "react";
+import React, { useContext } from "react";
+import { StoreContext } from './context/store/storeContext';
 import Quad  from './components/Quad/';
+import WiningModal from './components/WinnerModal';
 import './sass/index.scss';
 
 function getQuads() {
@@ -11,13 +13,13 @@ function getQuads() {
 }
 
 const App = () => {
-
-
-return (
-	<div className="main-game">
-		{ getQuads() }
-	</div>
-);
+	const { state, actions } = useContext(StoreContext);
+	const {winner} = state.generalStates;
+	return (
+		<div className={!winner ? "main-game" : 'finished-game'}>
+			{!winner ? getQuads() : (<WiningModal symbol={winner.symbol}/>) }
+		</div>
+	);
 };
 
 export default App;

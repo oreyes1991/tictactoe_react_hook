@@ -2,10 +2,9 @@ export const generalActions = (props) => {
 	return {
 		setQuadValue: (index, turn) => {
 			props.dispatch({ type: 'SET_QUAD_VALUE', index, turn })
+		},
+		setIATurn: () => {
+			props.dispatch({ type: 'IA_TURN' });
 		}
 	}
-}
-
-function externSetValue(props,data) {
-  props.dispatch({ type: "SET_VALUE", data});
 }
