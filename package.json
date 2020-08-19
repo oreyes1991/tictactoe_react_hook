@@ -9,7 +9,7 @@
 	},
 	"main": "build/index.js",
 	"module": "build/index.js",
-	"homepage": "/",
+	"homepage": "/tictactoe_react_hook/",
 	"author": {
 		"name": "Osmar Reyes",
 		"email": "osmarreyesst@gmail.com",
