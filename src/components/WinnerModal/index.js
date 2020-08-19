@@ -6,7 +6,7 @@ const WinnerModal = (props) => {
 	return (
 		<div className="modal-wrapper">
 			<div>
-				<img src={ props.symbol === 'x' ? exImg : circleImg }/>
+				<img src={ props.symbol === 'x' ? exImg : circleImg } alt="symbol"/>
 				<h1> Winner </h1>
 				<button onClick={() => {  }}> Restart Game </button>
 			</div>

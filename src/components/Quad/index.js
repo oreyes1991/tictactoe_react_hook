@@ -18,7 +18,7 @@ const Quad = (props) => {
 			}}>
 			{ isTaken
 				? (<div className="quad-icon">
-					<img src={ quadValue === 'x' ? exImg : circleImg} />
+					<img src={ quadValue === 'x' ? exImg : circleImg} alt="symbol"/>
 				</div>)
 				: ''
 			}

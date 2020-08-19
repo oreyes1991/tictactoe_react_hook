@@ -13,7 +13,7 @@ function getQuads() {
 }
 
 const App = () => {
-	const { state, actions } = useContext(StoreContext);
+	const { state } = useContext(StoreContext);
 	const {winner} = state.generalStates;
 	return (
 		<div className={!winner ? "main-game" : 'finished-game'}>
