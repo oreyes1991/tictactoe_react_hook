@@ -16,8 +16,13 @@ const App = () => {
 	const { state } = useContext(StoreContext);
 	const {winner} = state.generalStates;
 	return (
-		<div className={!winner ? "main-game" : 'finished-game'}>
-			{!winner ? getQuads() : (<WiningModal symbol={winner.symbol}/>) }
+		<div className="game-wrapper">
+			<div className={!winner ? "main-game" : "main-game fade"}>
+				{getQuads()}
+			</div>
+			<div>
+				<WiningModal visible={winner} symbol={winner.symbol}/>
+			</div>
 		</div>
 	);
 };

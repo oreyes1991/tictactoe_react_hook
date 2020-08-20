@@ -5,6 +5,9 @@ export const generalActions = (props) => {
 		},
 		setIATurn: () => {
 			props.dispatch({ type: 'IA_TURN' });
+		},
+		resetGame: () => {
+			props.dispatch({ type: 'RESET_GAME' });
 		}
 	}
 }

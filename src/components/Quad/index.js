@@ -13,7 +13,9 @@ const Quad = (props) => {
 		<div className="quad-body" onClick={() => {
 				if(!isTaken) {
 					setQuadValue(props.index, state.generalStates.turn);
-					setIATurn();
+					setTimeout(() => {
+						setIATurn();
+					}, 300);
 				}
 			}}>
 			{ isTaken

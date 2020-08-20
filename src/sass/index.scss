@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body,html {
 	height: 100%;
+	font-family: 'Lato', sans-serif;
 }
 
 #root {
@@ -14,6 +17,8 @@ body,html {
 .main-game {
 	display: grid;
 	grid-template-columns: repeat(3, 100px);
+	opacity: 1;
+	transition: opacity 1s;
 	& > * {
 		height: 100px;
 		border: 1px solid #666666;
@@ -38,13 +43,48 @@ body,html {
 		& > img {
 			width: 90px;
 			height: 90px;
+			animation: moveLine .2s;
+			transition: all ease;
 		}
 	}
 
 }
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.fade {
+	opacity: 0;
+}
+
 .modal-wrapper {
 	position: fixed;
 	left: 0; right: 0; bottom: 0; top: 0;
 	display: grid;
 	place-content: center;
+	& button {
+		background-color: ghostwhite;
+		padding: 5px 10px;
+		height: 30px;
+		border: 1px solid #03a9f4;
+		border-radius: 4px;
+		color: #03a9f4;
+	}
+	& .modal-box {
+		min-width: 300px;
+		display: grid;
+		place-items: center;
+		&.tie {
+			grid-template-columns: 1fr 1fr;;
+		}
+	}
+}
+
+@keyframes moveLine {
+	0% { transform: scale(.3, .3) }
+	40% { transform: scale(1,1) }
+	70% { transform: scale(1.3, 1.3) }
+	100% { transform: scale(1,1) }
 }
