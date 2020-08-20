@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tictactoe_react_hook/static/css/main.0a0bf738.chunk.css",
+    "main.js": "/tictactoe_react_hook/static/js/main.731d7a90.chunk.js",
+    "main.js.map": "/tictactoe_react_hook/static/js/main.731d7a90.chunk.js.map",
+    "runtime-main.js": "/tictactoe_react_hook/static/js/runtime-main.57aa9242.js",
+    "runtime-main.js.map": "/tictactoe_react_hook/static/js/runtime-main.57aa9242.js.map",
+    "static/js/2.ca1056ea.chunk.js": "/tictactoe_react_hook/static/js/2.ca1056ea.chunk.js",
+    "static/js/2.ca1056ea.chunk.js.map": "/tictactoe_react_hook/static/js/2.ca1056ea.chunk.js.map",
+    "index.html": "/tictactoe_react_hook/index.html",
+    "precache-manifest.1ae6f8e33965fb2b6b7dd07f8b744770.js": "/tictactoe_react_hook/precache-manifest.1ae6f8e33965fb2b6b7dd07f8b744770.js",
+    "service-worker.js": "/tictactoe_react_hook/service-worker.js",
+    "static/css/main.0a0bf738.chunk.css.map": "/tictactoe_react_hook/static/css/main.0a0bf738.chunk.css.map",
+    "static/js/2.ca1056ea.chunk.js.LICENSE.txt": "/tictactoe_react_hook/static/js/2.ca1056ea.chunk.js.LICENSE.txt",
+    "static/media/circle-regular.svg": "/tictactoe_react_hook/static/media/circle-regular.e9c99b07.svg",
+    "static/media/times-solid.svg": "/tictactoe_react_hook/static/media/times-solid.f0ebab4b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57aa9242.js",
+    "static/js/2.ca1056ea.chunk.js",
+    "static/css/main.0a0bf738.chunk.css",
+    "static/js/main.731d7a90.chunk.js"
+  ]
+}
