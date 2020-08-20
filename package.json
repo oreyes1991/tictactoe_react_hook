@@ -1,6 +1,6 @@
 {
 	"name": "tic-tac-toe-react",
-	"version": "V1.0.1",
+	"version": "1.0.1",
 	"private": true,
 	"dependencies": {
 		"react": "^16.13.1",
