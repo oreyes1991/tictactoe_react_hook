@@ -1,6 +1,6 @@
 {
 	"name": "tic-tac-toe-react",
-	"version": "0.1.0",
+	"version": "V1.0.1",
 	"private": true,
 	"dependencies": {
 		"react": "^16.13.1",
@@ -10,6 +10,10 @@
 	"main": "build/index.js",
 	"module": "build/index.js",
 	"homepage": "/tictactoe_react_hook/",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/oreyes1991/tictactoe_react_hook.git"
+	},
 	"author": {
 		"name": "Osmar Reyes",
 		"email": "osmarreyesst@gmail.com",
